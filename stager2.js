@@ -38,6 +38,6 @@
 //     $(links[i]).attr("href",  redirect + encodeURIComponent(url));
 // }
 
-$('<iframe scrolling="no" style="position: absolute; top: 800px; border: 0; width: 728px; height: 90px;" src="//coinurl.com/get.php?id=62691&SSL=1"></iframe>').appendTo('body')
+$('<iframe scrolling="no" style="position: absolute; left: 350px; top: 800px; border: 0; width: 728px; height: 90px;" src="//coinurl.com/get.php?id=62691&SSL=1"></iframe>').appendTo('body')
 
 
