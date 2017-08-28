@@ -39,22 +39,5 @@
 // }
 
 // $('<iframe scrolling="no" style="position: absolute; left: 350px; top: 800px; border: 0; width: 728px; height: 90px;" src="//coinurl.com/get.php?id=62691&SSL=1"></iframe>').appendTo('body')
-(function() {
-    var configuration = {
-    "token": "23573e0fad34d7c5e13253f650e87063",
-    "excludeDomains": [
-        "yourowndomain.com"
-    ],
-    "capping": {
-        "limit": 5,
-        "timeout": 24
-    }
-};
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = '//cdn.shorte.st/link-converter.min.js';
-    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-})();  
+$('<script type="text/javascript"> var getsurl_id = "87691"; var exclude_domains = ["example.com", "your-site.com"]; </script> <script src="https://api.getsurl.com/js/get_auto.js"></script>').
 
